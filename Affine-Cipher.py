@@ -1,7 +1,5 @@
-from string import ascii_lowercase
+from string import ascii_lowercase as alphabet
 from math import gcd
-
-alphabet = ascii_lowercase
 
 def encode(plainText, multi, shift):
     cipherText = ""
