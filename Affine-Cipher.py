@@ -26,8 +26,7 @@ while True:
     multi = int(input("Please enter a multiplicative integer:\n"))
     if gcd(multi, len(alphabet)) == 1:
         break
-    else:
-        print("ValueError: This integer is not a coprime of ", len(alphabet), ".\n")
+    print("ValueError: This integer is not a coprime of ", len(alphabet), ".\n")
 
 shift = int(input("Please enter the magnitude of the shift:\n"))
 
