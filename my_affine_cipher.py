@@ -33,7 +33,5 @@ while True:
 B = int(input("Please enter the magnitude of the shift:\n"))
 
 print("This is your cipher text: ",encode(plaintxt, A, B),"\n")
-
 ciphertxt = encode(plaintxt, A, B)
-
 print("This is your plain text: ",decode(ciphertxt, A, B))
