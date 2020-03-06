@@ -13,7 +13,6 @@ def decode(cipherText, multi, shift):
     for i in range(1, len(alphabet)):
         if (multi * i) % len(alphabet) == 1:
             inv = i
-
     for char in cipherText:
         plain = ((inv * (alphabet.index(char) - shift)) % len(alphabet))
         plainText += alphabet[plain]
